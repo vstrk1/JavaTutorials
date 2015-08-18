@@ -1,10 +1,7 @@
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Владислав on 15.08.2015.
- */
-public class JavaLesson18 {
+public class JavaLesson18 {                                                                                             //создали класс
     public static void main(String[] args){
         addThreadsToPool();
 
