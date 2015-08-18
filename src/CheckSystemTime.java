@@ -2,23 +2,20 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * Created by Владислав on 15.08.2015.
- */
-public class CheckSystemTime implements Runnable {
-    public void run(){
-        Date rightNow;
-        Locale currentLocale;
-        DateFormat timeFormatter;
-        String timeOutput;
+public class CheckSystemTime implements Runnable {          //класс
+    public void run(){                                  //метод
+        Date rightNow;                                      //обьект дата
+        Locale currentLocale;           // обьект локация
+        DateFormat timeFormatter;       // обьект формат даты
+        String timeOutput;              // стринга
 
-        rightNow = new Date();
-        currentLocale = new Locale("en");
+        rightNow = new Date();          //  //инициализированили дату
+        currentLocale = new Locale("en"); // установили локацию
 
-        timeFormatter = DateFormat.getTimeInstance(DateFormat.DEFAULT, currentLocale);
-        timeOutput = timeFormatter.format(rightNow);
+        timeFormatter = DateFormat.getTimeInstance(DateFormat.DEFAULT, currentLocale); // устанновили формат времени
+        timeOutput = timeFormatter.format(rightNow);        // инициализировали выходное время , суем туда текущее время
 
-        System.out.println("Time: " + timeOutput);
+        System.out.println("Time: " + timeOutput);          // отображаем все это
 
 
     }
