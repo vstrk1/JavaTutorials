@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
-public class JavaLesson20 extends JFrame{
+public class JavaLesson20 extends JFrame{           //аботаем с фреймом малята
     public static void main(String[] args){
         new JavaLesson20();
     }
