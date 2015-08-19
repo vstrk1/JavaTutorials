@@ -1,21 +1,17 @@
-import java.text.DateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by Владислав on 15.08.2015.
- */
 public class JavaLesson19 {
     public static void main(String[] args){
-        String longString = " Vladislav Stuparenko CA 23234 RR 8(063)111 99 71";
-        String strangeString = " 1Z aaa *** **** {{{ {{ { ";
+        String longString = " Vladislav Stuparenko CA 23234 RR 8(063)111 99 71";  // создаем длинную строку
+        String strangeString = " 1Z aaa *** **** {{{ {{ { ";                // вторую строку
 
 
-       //regexChecker("([0-9]( |-)?)?(\\(?[0-9]{3}\\)?|[0-9]{3}( |-)?([0-9]{3}( |-)?[0-9]{4}|[a-zA-Z0-9]{7}}", strangeString);
-regexReplace(longString);
+       regexChecker("([0-9]( |-)?)?(\\(?[0-9]{3}\\)?|[0-9]{3}( |-)?([0-9]{3}( |-)?[0-9]{4}|[a-zA-Z0-9]{7}}", strangeString);
+       regexReplace(longString);
     }
-    public static void regexChecker(String theRegex, String str2Check){
-        Pattern checkRegex = Pattern.compile(theRegex);
+    public static void regexChecker(String theRegex, String str2Check){     //создали метод , принимает на себя две стринги
+        Pattern checkRegex = Pattern.compile(theRegex);  //
 
         Matcher regexmatcher = checkRegex.matcher(str2Check);
 
