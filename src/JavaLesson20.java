@@ -42,7 +42,7 @@ public class JavaLesson20 extends JFrame{           //Созади клас ко
         thePanel.add(scrollbar1); // добавили скролбар в панель
         this.add(thePanel); //                                                  //ДОБАВИЛИ ПАНЕЛЬ В НАШЕ ОКНО !!!!
         this.setVisible(true); //делаем так чтоб окно было видимо
-        textField1.requestFocus(); // при откртытии окна устанавливаем мигание на поле 
+        textField1.requestFocus(); // при откртытии окна устанавливаем мигание на поле
     }
 
 
