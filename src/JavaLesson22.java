@@ -77,7 +77,7 @@ public class JavaLesson22 extends JFrame{
         thePanel.add(label3);
         howManyTimes = new JSlider(0, 99, 1);
         howManyTimes.setMinorTickSpacing(1);
-        howManyTimes.setMajorTickSpacing(1);
+        howManyTimes.setMajorTickSpacing(10);
         howManyTimes.setPaintTicks(true);
         howManyTimes.setPaintLabels(true);
         ListenForSlider lForSlider = new ListenForSlider();
@@ -85,7 +85,9 @@ public class JavaLesson22 extends JFrame{
         this.add(howManyTimes);
         this.add(thePanel);
         this.setVisible(true);
+        this.setResizable(false);
         textField1.requestFocus();
+        thePanel.add(howManyTimes);
     }
 
     private class ListenForButton implements ActionListener{
