@@ -2,54 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bc8ef39-8037-447d-8afb-038eec836470" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/Animals.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/Cats.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/CheckSystemTime.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/Crashable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/Drivable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/GetDaMail.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/GetTime20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/HellWorld1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/HelloWorld.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson16.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson19.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson21$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson21$ListenForButton.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson21$ListenForKeys.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson21$ListenForMouse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson21$ListenForWindow.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson21.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson3_1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson4_1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson4_2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson4_3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson4_4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson6_1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson6_2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/JavaLesson9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/Monster.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/Monster2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/PerformSystemCheck.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTutorials/Vehicle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaLesson22.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaLesson21.java" afterPath="$PROJECT_DIR$/src/JavaLesson21.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaLesson22.java" afterPath="$PROJECT_DIR$/src/JavaLesson22.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaTutorials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,7 +28,7 @@
       <file leaf-file-name="JavaLesson21.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaLesson21.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.48276">
+            <state vertical-scroll-proportion="-44.551723">
               <caret line="115" column="52" selection-start-line="115" selection-start-column="52" selection-end-line="115" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -92,9 +46,13 @@
       <file leaf-file-name="JavaLesson22.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JavaLesson22.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07083333">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-              <folding />
+            <state vertical-scroll-proportion="0.85862786">
+              <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,7 +146,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="929" />
     <option name="width" value="929" />
-    <option name="height" value="1079" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -276,22 +234,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaLesson21">
-    <configuration default="false" name="JavaLesson18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="JavaLesson18" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaTutorials" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.JavaLesson22">
     <configuration default="false" name="JavaLesson19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="JavaLesson19" />
@@ -340,6 +283,21 @@
     <configuration default="false" name="JavaLesson11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="JavaLesson11" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaTutorials" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="JavaLesson22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="JavaLesson22" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -513,19 +471,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.JavaLesson18" />
-      <item index="1" class="java.lang.String" itemvalue="Application.JavaLesson19" />
-      <item index="2" class="java.lang.String" itemvalue="Application.JavaLesson20" />
-      <item index="3" class="java.lang.String" itemvalue="Application.JavaLesson21" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JavaLesson11" />
+      <item index="0" class="java.lang.String" itemvalue="Application.JavaLesson19" />
+      <item index="1" class="java.lang.String" itemvalue="Application.JavaLesson20" />
+      <item index="2" class="java.lang.String" itemvalue="Application.JavaLesson21" />
+      <item index="3" class="java.lang.String" itemvalue="Application.JavaLesson11" />
+      <item index="4" class="java.lang.String" itemvalue="Application.JavaLesson22" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.JavaLesson21" />
-        <item index="1" class="java.lang.String" itemvalue="Application.JavaLesson11" />
-        <item index="2" class="java.lang.String" itemvalue="Application.JavaLesson20" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JavaLesson19" />
-        <item index="4" class="java.lang.String" itemvalue="Application.JavaLesson18" />
+        <item index="0" class="java.lang.String" itemvalue="Application.JavaLesson22" />
+        <item index="1" class="java.lang.String" itemvalue="Application.JavaLesson21" />
+        <item index="2" class="java.lang.String" itemvalue="Application.JavaLesson11" />
+        <item index="3" class="java.lang.String" itemvalue="Application.JavaLesson20" />
+        <item index="4" class="java.lang.String" itemvalue="Application.JavaLesson19" />
       </list>
     </recent_temporary>
   </component>
@@ -576,7 +534,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440059034209</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="6 commit">
+      <created>1440068888474</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1440068888474</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -589,7 +553,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="929" y="0" width="929" height="1079" extended-state="0" />
+    <frame x="929" y="0" width="929" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -600,10 +564,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.476828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47633746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28587076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28587076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.64102566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -658,7 +622,8 @@
     <MESSAGE value="Thirth commit&#10;" />
     <MESSAGE value="4 commit" />
     <MESSAGE value="5 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 commit" />
+    <MESSAGE value="6 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="6 commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1028,14 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaLesson20.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="86" selection-start-line="44" selection-start-column="86" selection-end-line="44" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/awt/event/MouseEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33264032">
@@ -1049,7 +1006,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaLesson21.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.48276">
+        <state vertical-scroll-proportion="-44.551723">
           <caret line="115" column="52" selection-start-line="115" selection-start-column="52" selection-end-line="115" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1063,11 +1020,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaLesson20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="86" selection-start-line="44" selection-start-column="86" selection-end-line="44" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaLesson22.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07083333">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
+        <state vertical-scroll-proportion="0.85862786">
+          <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
