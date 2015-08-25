@@ -82,7 +82,7 @@ public class JavaLesson22 extends JFrame{               // создали клас , унасле
         howManyTimes.setPaintTicks(true);   //устанавливаем отображание тех самых полосочек
         howManyTimes.setPaintLabels(true); //устанавливаем отображение десетков цифр
         ListenForSlider lForSlider = new ListenForSlider(); // создали и инициализировали  экшн для слайдера
-        howManyTimes.addChangeListener(lForSlider); // прикрутили екшн к слайдеру
+        howManyTimes.addChangeListener(lForSlider); // прикрутили екшн к слайдеру (прикрутили модель к контролеру)
         this.add(howManyTimes); // добавили слайдер к окну
         this.add(thePanel); // добавили основную панель
         this.setVisible(true); // включили отображение
