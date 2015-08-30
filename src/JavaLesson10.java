@@ -1,8 +1,5 @@
 import org.apache.commons.lang.ArrayUtils;
 
-/**
- * Created by v.stuparenko on 24.07.2015.
- */
 public class JavaLesson10 {
     public static void main(String[] args){ //эта запускающаяся дурасень
         Monster2.boildBattleBoard(); //это мы вызываем конструктор и просим у него получить таблицу
