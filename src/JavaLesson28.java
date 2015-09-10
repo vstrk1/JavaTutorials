@@ -52,8 +52,7 @@ public class JavaLesson28 extends JFrame {                              // созда
 
 
        // this.add(thePanel);
-        this.setVisible(true); // отображаем окно 
-
+        this.setVisible(true); // отображаем окно
     }
 
 
