@@ -21,17 +21,12 @@ public class JavaLesson322{
        for(Customer person : customers){
 
   	            createCustomers(person, custOutput);
-
   	        }
-
        // Closes the connection to the PrintWriter
 
        custOutput.close();
-
        getFileInfo();
-
    }
-
   	    // class that defines all the fields for my customers
 
   	    private static class Customer{
