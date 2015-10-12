@@ -123,7 +123,7 @@ public class JavaLesson30 extends JFrame {                                  //со
 
             if (e.getSource() == ageSlider) { //если источник - это значение слайдера
 
-            ageLabel.setText("Age: " + ageSlider.getValue()); // ставим значение в лейбл 
+            ageLabel.setText("Age: " + ageSlider.getValue()); // ставим значение в лейбл
             }
         }
     }
