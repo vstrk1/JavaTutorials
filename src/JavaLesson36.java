@@ -16,11 +16,14 @@ import javax.swing.table.TableColumn;
  */
 public class JavaLesson36 {
 
+    //create two-dimensional array
     static Object[][] databaseInfo;
 
     //CPR - cost per run
+    //create dimensional array with headers for da table
     static Object[] columns = {"Year", "PlayerID", "Name", "TTRC", "Team", "Salary", "CPR", "POS"};
 
+    //in dis object provided object columns from getMetaDataMethod
     static ResultSet rows;
 
     static ResultSetMetaData metaData;
@@ -55,7 +58,7 @@ public class JavaLesson36 {
             Statement sqlState = conn.createStatement();
 
             String selectStuff = "select b.yearID, b.playerID, " +
-                    "CONCAT(m.nameFirst, m.nameLast) AS Name, " +
+                    "CONCAT(m.nameFirst,Char(32), m.nameLast) AS Name, " +
                     "((b.H+b.BB)+(2.4*(b.AB+b.BB)))*(t.TB+(3*(b.AB+b.BB)))/(9*(b.AB+b.BB))-(.9*(b.AB+b.BB)) AS TTRC, " +
                     "b.teamID AS Team, s.salary AS Salary, " +
                     "CAST( s.salary/(((b.H+b.BB)+(2.4*(b.AB+b.BB)))*(t.TB+(3*(b.AB+b.BB)))/(9*(b.AB+b.BB))-(.9*(b.AB+b.BB))) as decimal(10,2)) AS CPR, " +
@@ -109,12 +112,13 @@ public class JavaLesson36 {
 
         JScrollPane scrollPane = new JScrollPane(table);
         frame.add(scrollPane, BorderLayout.CENTER);
-        frame.setSize(800, 500);frame.setVisible(true);
+        frame.setSize(800, 500);
+        frame.setVisible(true);
     }
 }
 
-class CenterTableCellRenderer extends DefaultTableCellRenderer{
-    public CenterTableCellRenderer(){
+class CenterTableCellRenderer extends DefaultTableCellRenderer {
+    public CenterTableCellRenderer() {
         setHorizontalAlignment(JLabel.CENTER);
     }
 }

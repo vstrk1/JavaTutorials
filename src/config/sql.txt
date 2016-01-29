@@ -1,0 +1,10 @@
+"select b.yearID, b.playerID, " +
+            		"CONCAT(m.nameFirst, ' ', m.nameLast) AS Name, " +
+            		"((b.H+b.BB)+(2.4*(b.AB+b.BB)))*(t.TB+(3*(b.AB+b.BB)))/(9*(b.AB+b.BB))-(.9*(b.AB+b.BB)) AS TTRC, " +
+            		"b.teamID AS Team, s.salary AS Salary, " +
+            		"CAST( s.salary/(((b.H+b.BB)+(2.4*(b.AB+b.BB)))*(t.TB+(3*(b.AB+b.BB)))/(9*(b.AB+b.BB))-(.9*(b.AB+b.BB))) as decimal(10,2)) AS CPR, " +
+            		"f.POS AS POS FROM Batting b, Master m, Salaries s, TOTBYR t, Fielding f " +
+            		"WHERE b.playerID = m.playerID AND t.playerID = m.playerID " +
+            		"AND t.yearID = 2010 AND b.yearID = t.yearID AND s.playerID = b.playerID " +
+            		"AND s.yearID = b.yearID AND b.AB > 50 AND b.playerID = f.playerID " +
+            		"AND b.playerID = t.playerID GROUP BY b.playerID ORDER BY TTRC DESC LIMIT 200;";
