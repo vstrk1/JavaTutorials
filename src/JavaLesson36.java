@@ -14,6 +14,7 @@ import javax.swing.table.TableColumn;
 /**
  * Created by vstrk on 1/26/16.
  */
+
 public class JavaLesson36 {
 
     //create two-dimensional array
@@ -26,9 +27,12 @@ public class JavaLesson36 {
     //in dis object provided object columns from getMetaDataMethod
     static ResultSet rows;
 
+    //Result meta data contains information on da data returned og the query
     static ResultSetMetaData metaData;
 
+    //DefaultTableModel defines the methods JTable will use
     static DefaultTableModel dTableModel = new DefaultTableModel(databaseInfo, columns) {
+    //overiding da getColumn Class
         public Class getColumnClass(int column) {
             Class returnValue;
 
@@ -36,6 +40,7 @@ public class JavaLesson36 {
                 returnValue = getValueAt(0, column).getClass();
             } else {
                 returnValue = Object.class;
+    //returns the class for the item in the column
             }
             return returnValue;
         }
@@ -50,23 +55,22 @@ public class JavaLesson36 {
         Connection conn = null;
 
         try {
-
+    //the driver allows to query the database with java
+    //forName dynamically loads the class
             Class.forName("com.mysql.jdbc.Driver");
-
             conn = DriverManager.getConnection("jdbc:mysql://localhost/mysql", "root", "1244");
 
             Statement sqlState = conn.createStatement();
 
-            String selectStuff = "select b.yearID, b.playerID, " +
-                    "CONCAT(m.nameFirst,Char(32), m.nameLast) AS Name, " +
-                    "((b.H+b.BB)+(2.4*(b.AB+b.BB)))*(t.TB+(3*(b.AB+b.BB)))/(9*(b.AB+b.BB))-(.9*(b.AB+b.BB)) AS TTRC, " +
-                    "b.teamID AS Team, s.salary AS Salary, " +
-                    "CAST( s.salary/(((b.H+b.BB)+(2.4*(b.AB+b.BB)))*(t.TB+(3*(b.AB+b.BB)))/(9*(b.AB+b.BB))-(.9*(b.AB+b.BB))) as decimal(10,2)) AS CPR, " +
-                    "f.POS AS POS FROM Batting b, Master m, Salaries s, TOTBYR t, Fielding f " +
-                    "WHERE b.playerID = m.playerID AND t.playerID = m.playerID " +
-                    "AND t.yearID = 2010 AND b.yearID = t.yearID AND s.playerID = b.playerID " +
-                    "AND s.yearID = b.yearID AND b.AB > 50 AND b.playerID = f.playerID " +
-                    "AND b.playerID = t.playerID GROUP BY b.playerID ORDER BY TTRC DESC LIMIT 200;";
+            String selectStuff = "select b.yearID, b.playerID, CONCAT(m.nameFirst,Char(32), m.nameLast) AS Name," +
+                    " ((b.H+b.BB)+(2.4*(b.AB+b.BB)))*(t.TB+(3*(b.AB+b.BB)))/(9*(b.AB+b.BB))-(.9*(b.AB+b.BB)) AS TTRC," +
+                    " b.teamID AS Team, s.salary AS Salary," +
+                    " CAST( s.salary/(((b.H+b.BB)+(2.4*(b.AB+b.BB)))*(t.TB+(3*(b.AB+b.BB)))/(9*(b.AB+b.BB))-(.9*(b.AB+b.BB)))" +
+                    " as decimal(10,2)) AS CPR, f.POS AS POS FROM Batting b, Master m, Salaries s, TOTBYR t," +
+                    " Fielding f WHERE b.playerID = m.playerID AND t.playerID = m.playerID AND t.yearID = 2010" +
+                    " AND b.yearID = t.yearID AND s.playerID = b.playerID AND s.yearID = b.yearID AND b.AB > 50" +
+                    " AND b.playerID = f.playerID AND b.playerID = t.playerID ORDER BY TTRC DESC LIMIT 200;";
+
 
             rows = sqlState.executeQuery(selectStuff);
 
